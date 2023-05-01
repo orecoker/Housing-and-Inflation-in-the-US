@@ -2,13 +2,13 @@
 import pandas as pd
 
 #read in files as dataframes
-df_h = pd.read_csv('/Users/orecoker/Desktop/FALL 22 COURSEWORK/BUSINESS INTELLIGENCE/FINAL PROJECT/FILES/Housing Prices 2004-2014 SOURCE.csv')
-df_i  = pd.read_csv('/Users/orecoker/Desktop/FALL 22 COURSEWORK/BUSINESS INTELLIGENCE/FINAL PROJECT/FILES/Inflation 2004-2014 SOURCE.csv')
+df_h = pd.read_csv('.../Housing Prices 2004-2014 SOURCE.csv')
+df_i  = pd.read_csv('.../Inflation 2004-2014 SOURCE.csv')
 df_h
 df_i
 
 #file path and exported csvs
-file_path = '/Users/orecoker/Desktop/FALL 22 COURSEWORK/BUSINESS INTELLIGENCE/FINAL PROJECT/FILES/'
+file_path = '.../FILES/'
 h_data = 'Housing Price 2004-2014 CLEAN.csv'
 i_data = 'Inflation 2004-2014 CLEAN.csv'
 
